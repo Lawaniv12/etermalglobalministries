@@ -1135,14 +1135,14 @@ a:focus, a:hover {
 }
 
 /*=================================================================
-  Portfolio section
+  program section
 ==================================================================*/
-.portfolio-filter {
+.program-filter {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.portfolio-filter button {
+.program-filter button {
   cursor: pointer;
   display: inline-block;
   font-size: 14px;
@@ -1154,18 +1154,18 @@ a:focus, a:hover {
   outline: none;
 }
 
-.portfolio-filter button.active {
+.program-filter button.active {
   background: #28ABE3;
   color: #fff;
   border-radius: 50px;
 }
 
-.portfolio-block {
+.program-block {
   position: relative;
   margin-bottom: 30px;
 }
 
-.portfolio-block:before {
+.program-block:before {
   transition: all 0.3s ease-in-out;
   background: rgba(0, 0, 0, 0.55);
   opacity: 0;
@@ -1177,20 +1177,20 @@ a:focus, a:hover {
   content: '';
 }
 
-.portfolio-block:hover:before {
+.program-block:hover:before {
   opacity: 1;
 }
 
-.portfolio-block:hover .caption h4 {
+.program-block:hover .caption h4 {
   top: 45%;
 }
 
-.portfolio-block:hover .caption {
+.program-block:hover .caption {
   opacity: 1;
   top: 55%;
 }
 
-.portfolio-block .caption {
+.program-block .caption {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1202,15 +1202,15 @@ a:focus, a:hover {
   text-align: center;
 }
 
-.portfolio-block .caption h4 {
+.program-block .caption h4 {
   font-size: 16px;
 }
 
-.portfolio-block .caption h4 a {
+.program-block .caption h4 a {
   color: #fff;
 }
 
-.portfolio-block .caption .search-icon {
+.program-block .caption .search-icon {
   background: #28ABE3;
   color: #fff;
   display: inline-block;
@@ -2265,8 +2265,8 @@ a:focus, a:hover {
     margin: 0 auto 20px;
     width: 280px;
   }
-  /* portfolio */
-  .portfolio-filter ul li a {
+  /* program */
+  .program-filter ul li a {
     margin: 0 10px 10px 0;
     padding: 5px 10px;
   }
@@ -2360,7 +2360,7 @@ a:focus, a:hover {
   .team-mate img {
     margin: 0 auto;
   }
-  /* portfolio */
+  /* program */
   .og-grid li {
     width: 245px;
   }
